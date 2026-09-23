@@ -24,13 +24,14 @@
                 emitevents="true"
                 cursor="fuse: false; rayOrigin: mouse;"
             >
-                <a-image
-                    src="assets/asset.png"
-                    scale="1 1 1"
-                    class="clickable"
-                    rotation="-90 0 0"
-                    gesture-handler
-                ></a-image>
+                <model-viewer
+          src="tinker.glb"
+          alt="Modelo 3D"
+          camera-controls
+          auto-rotate
+          ar
+        >
+        </model-viewer>
             </a-marker>
 
             <a-entity camera></a-entity>
