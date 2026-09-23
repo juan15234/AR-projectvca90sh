@@ -24,15 +24,13 @@
                 emitevents="true"
                 cursor="fuse: false; rayOrigin: mouse;"
             >
-               <model-viewer
-          src="tinker.glb"
-          alt="Modelo 3D"
-          camera-controls
-          auto-rotate
-          ar-modes="webxr scene-viewer quick-look"
-    shadow-intensity="1">
-        >
-        </model-viewer>
+            <a-image
+          src="assets/bebedero.png"
+          scale="1 1 1"
+          class="clickable"
+          rotation="-90 0 0"
+          gesture-handler
+        ></a-image>
             </a-marker>
 
             <a-entity camera></a-entity>
